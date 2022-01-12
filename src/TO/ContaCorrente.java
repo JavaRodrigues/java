@@ -1,4 +1,4 @@
-package DadosBancarios;
+package TO;
 
 
 public class ContaCorrente {
@@ -67,16 +67,4 @@ public class ContaCorrente {
         this.biometria = biometria;
     }
 
-    public boolean concederAcesso(int agencia, int conta){
-        if (agencia >0 && conta > 0){
-            return true;
-        }
-        return false;
-    }
-
-    public void consultarSaldo () {
-        String print = "Sua agência é:" + agencia + ", sua conta é:" + conta  + ", seu saldo é de:" + saldo;
-
-        System.out.println(print);
-    }
 }

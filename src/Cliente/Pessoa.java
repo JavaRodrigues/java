@@ -1,8 +1,6 @@
 package Cliente;
 
-import DadosBancarios.ContaCorrente;
-
-import java.net.StandardSocketOptions;
+import TO.ContaCorrente;
 
 public class Pessoa {
 
