@@ -66,6 +66,7 @@ public class ContaPoupanca {
         this.biometria = biometria;
     }
 
+<<<<<<< Updated upstream
     public boolean obterContaPoupanca(){
         return false;
 
@@ -83,4 +84,14 @@ public class ContaPoupanca {
     }
 
 
+=======
+    public boolean obterContaPoupanca(boolean biometria){
+        return false;
+    }
+
+    public boolean obterContaPoupanca(boolean biometria, int agencia, int conta){
+        System.out.println();
+        return false;
+    }
+>>>>>>> Stashed changes
 }
